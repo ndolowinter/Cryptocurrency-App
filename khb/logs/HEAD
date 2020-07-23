@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 f6a14bfbebfa86743319e1bc939783d542dc1833 ndolowinter <winters.shadrack@gmail.com> 1586452443 +0300	commit (initial): Building blocks and testing chain validation.
+f6a14bfbebfa86743319e1bc939783d542dc1833 090121fcf914ebedbb6636a6e07c298df5d3bb8a ndolowinter <winters.shadrack@gmail.com> 1586666632 +0300	commit: Creatong the app.
+090121fcf914ebedbb6636a6e07c298df5d3bb8a 7788c1bdbd59c829a36be47620ed9978d2a04925 ndolowinter <winters.shadrack@gmail.com> 1586678289 +0300	commit: Testing json scripts with postman.
+7788c1bdbd59c829a36be47620ed9978d2a04925 1e62402329abfd546c70426725e6c11a6abefea1 ndolowinter <winters.shadrack@gmail.com> 1586858555 +0300	commit: Create the websocket server.
+1e62402329abfd546c70426725e6c11a6abefea1 f2ee9cac87b0715d4cd14394e35346bd75418191 ndolowinter <winters.shadrack@gmail.com> 1586860377 +0300	commit: Connecting to blockchain peers.
+f2ee9cac87b0715d4cd14394e35346bd75418191 421c17e1aab7fd6cba87ee9238e27be9cf73e8cc ndolowinter <winters.shadrack@gmail.com> 1586861165 +0300	commit: Adding terminal scripts.
+421c17e1aab7fd6cba87ee9238e27be9cf73e8cc 764ed04a525a31eda1c51aee8a78cb65460c2196 ndolowinter <winters.shadrack@gmail.com> 1586863650 +0300	commit: Stringify chain error noted.
+764ed04a525a31eda1c51aee8a78cb65460c2196 0e34856a50bb71bed032c1a0c81578218db9580f ndolowinter <winters.shadrack@gmail.com> 1586864776 +0300	commit: TypeError: Cannot read property 'chain' of undefined.
+0e34856a50bb71bed032c1a0c81578218db9580f 6a91a3366abbe094a0226f9579ab9e10fa2fea15 ndolowinter <winters.shadrack@gmail.com> 1595446830 +0300	commit: 10 random blockchains and setting the nonce value and block difficulty
+6a91a3366abbe094a0226f9579ab9e10fa2fea15 0c4c32a7f24050726b828c4f80bd231a54a46b0e ndolowinter <winters.shadrack@gmail.com> 1595446933 +0300	pull --rebase origin master: checkout 0c4c32a7f24050726b828c4f80bd231a54a46b0e
+0c4c32a7f24050726b828c4f80bd231a54a46b0e 2986f54327a5f2708892f5d13d2df9fd6db010df ndolowinter <winters.shadrack@gmail.com> 1595446934 +0300	pull --rebase origin master: 10 random blockchains and setting the nonce value and block difficulty
+2986f54327a5f2708892f5d13d2df9fd6db010df 2986f54327a5f2708892f5d13d2df9fd6db010df ndolowinter <winters.shadrack@gmail.com> 1595446935 +0300	rebase finished: returning to refs/heads/master
+2986f54327a5f2708892f5d13d2df9fd6db010df 250eefd9b4385ffcd000f235cb7ef2fc3e506cd8 ndolowinter <winters.shadrack@gmail.com> 1595544348 +0300	commit: Creating the wallet.

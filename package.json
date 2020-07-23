@@ -1,0 +1,25 @@
+{
+  "name": "sf-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app",
+    "dev": "nodemon ./app",
+    "dev-test": "nodemon dev-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.3",
+    "express": "^4.17.1",
+    "ws": "^7.2.3"
+  }
+}
