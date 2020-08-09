@@ -1,3 +1,4 @@
+
 const Transaction = require('./transaction');
 const Wallet = require('./index');
 
