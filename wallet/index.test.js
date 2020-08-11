@@ -1,15 +1,16 @@
 import {v1 as uuid} from 'uuid';
 
-uuid(); 
+uuid();
 const Wallet = require('./index');
 const TransactionPool = require('./transaction-pool');
 
 describe('Wallet', () => {
-  let wallet, tp;
+  let wallet, tp, bc;
 
   beforeEach(() => {
     wallet = new Wallet();
     tp = new TransactionPool();
+    bc = new Blockchain();
   });
 
   describe('creating a transaction', () => {

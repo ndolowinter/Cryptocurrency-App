@@ -21,7 +21,10 @@ class Wallet {
   return this.keyPair.sign(dataHash);
 }
 
-createTransaction(recipient, amount, transactionPool) {
+createTransaction(recipient, amount, blockchain, transactionPool) {
+
+this.balance = this.calculateBalance();
+
   if (amount > this.balance) {
     console.log(`Amount: ${amount}, exceeds current balance: ${this.balance}`);
     return;
@@ -42,11 +45,11 @@ calculateBalance(blockchain){
   let balance = this.balance;
   let transactions = [];
   blockchain.chain.forEach(block => block.data.forEach((transaction => {
-    transaction.push(transaction);
+    transactions.push(transaction);
   }));
 
   const walletInpuTs = transactions
-  .filter(transaction => transactions.inputs.address === this.publicKey);
+  .filter(transaction => transaction.inputs.address === this.publicKey);
 
 let startTime = 0;
 
