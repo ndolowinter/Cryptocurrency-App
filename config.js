@@ -4,7 +4,7 @@ const MINE_RATE = 3000;
 
 const INITIAL_BALANCE  = 500;
 
-const MINING_REWARD = 50;
+const MINE_REWARD = 50;
 
 
 
